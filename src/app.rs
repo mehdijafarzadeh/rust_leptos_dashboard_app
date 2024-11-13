@@ -3,6 +3,7 @@ mod models;
 pub mod server_functions;
 pub mod pages;
 use pages::{HomePage, TeamPage};
+pub mod components;
 
 use leptos::*;
 use leptos_meta::*;
